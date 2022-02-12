@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"practical_tasks/calc"
 	"practical_tasks/calculation"
 	"practical_tasks/equation"
 	"practical_tasks/eval"
@@ -40,7 +41,7 @@ func Choice() {
 	case 2:
 		eval.Eval()
 	case 3:
-		fmt.Println("В разработке, выберите другой вариант")
+		calc.Calculator()
 		Choice()
 	default:
 		fmt.Println("Retype, please")
